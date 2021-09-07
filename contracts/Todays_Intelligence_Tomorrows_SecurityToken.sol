@@ -1,7 +1,7 @@
 pragma solidity 0.4.23;
 
 //
-// This source file is part of the nexo-contracts open source project
+// This source file is part of the Todays_Intelligence_Tomorrows_$ecurity-contracts open source project
 // Copyright 2018 Zerion LLC <inbox@zerion.io>
 // Licensed under Apache License v2.0
 //
@@ -9,13 +9,13 @@ pragma solidity 0.4.23;
 import './utils/Token.sol';
 
 
-// @title Token contract - Implements Standard ERC20 Token for NEXO project.
+// @title Token contract - Implements Standard ERC20 Token for Todays_Intelligence_Tomorrows_Security project.
 /// @author Zerion - <inbox@zerion.io>
-contract NexoToken is Token {
+contract Todays_Intelligence_Tomorrows_Security Token is Token {
 
 	/// TOKEN META DATA
-	string constant public name = 'Nexo';
-	string constant public symbol = 'NEXO';
+	string constant public name = 'Todays_Intelligence_Tomorrows_Security';
+	string constant public symbol = 'TIT$';
 	uint8  constant public decimals = 18;
 
 
