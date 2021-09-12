@@ -28,7 +28,7 @@ contract Todays_Intelligence_Tomorrows_Security Token is Token {
 	// 525,000,000 (52.50%) tokens are distributed among initial investors
 	// These tokens will be distributed without vesting
 
-	address public investorsAllocation = address(0xFFfFfFffFFfffFFfFFfFFFFFffFFFffffFfFFFfF);
+	address public investorsAllocation = address(0xc0aAe825f43fb887FF5d9950f50ce3AFFFb37ba4);
 	uint256 public investorsTotal = 525000000e18;
 
 
@@ -39,7 +39,7 @@ contract Todays_Intelligence_Tomorrows_Security Token is Token {
 	// 41,666,666 tokens will be unlocked every month after the cliff
 	// 4 tokens will be unlocked without vesting to ensure that total amount sums up to 250,000,000.
 
-	address public overdraftAllocation = address(0x1111111111111111111111111111111111111111);
+	address public overdraftAllocation = address(0x405011FC9A82DA342f0Dbf69c1Ae7942fb8A35c0);
 	uint256 public overdraftTotal = 250000000e18;
 	uint256 public overdraftPeriodAmount = 41666666e18;
 	uint256 public overdraftUnvested = 4e18;
@@ -54,7 +54,7 @@ contract Todays_Intelligence_Tomorrows_Security Token is Token {
 	// These tokens will be distributed every 3 month without a cliff within 4 years
 	// 7,031,250 tokens will be unlocked every 3 month
 
-	address public teamAllocation  = address(0x2222222222222222222222222222222222222222);
+	address public teamAllocation  = address(0x5aB68054266EA05c552703B042b2809F92750bdA);
 	uint256 public teamTotal = 112500000e18;
 	uint256 public teamPeriodAmount = 7031250e18;
 	uint256 public teamUnvested = 0;
@@ -72,7 +72,7 @@ contract Todays_Intelligence_Tomorrows_Security Token is Token {
 	// 8,333,333 tokens will be unlocked every 3 month
 
 
-	address public communityAllocation  = address(0x3333333333333333333333333333333333333333);
+	address public communityAllocation  = address(0xD788aC0C6fCE301f5f8fdd16a654157FAE9F111f);
 	uint256 public communityTotal = 60000000e18;
 	uint256 public communityPeriodAmount = 8333333e18;
 	uint256 public communityUnvested = 10000002e18;
@@ -89,7 +89,7 @@ contract Todays_Intelligence_Tomorrows_Security Token is Token {
 	// 27 499 992 tokens will be distributed monthly without a cliff within 12 months
 	// 2,291,666 tokens will be unlocked every month
 
-	address public advisersAllocation  = address(0x4444444444444444444444444444444444444444);
+	address public advisersAllocation  = address(0x8c01f65a4510a98F000B59f6F1bbc46275734069);
 	uint256 public advisersTotal = 52500000e18;
 	uint256 public advisersPeriodAmount = 2291666e18;
 	uint256 public advisersUnvested = 25000008e18;
